@@ -1,0 +1,45 @@
+package vgr_CommonControlsD5;
+
+{$R *.RES}
+{$ALIGN ON}
+{$ASSERTIONS OFF}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS OFF}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'vtkTools CommonControls (runtime)'}
+{$RUNONLY}
+{$IMPLICITBUILD OFF}
+
+requires
+  vcl50;
+
+contains
+  vgr_ColorButton in 'vgr_ColorButton.pas' {vgrColorPaletteForm},
+  vgr_ControlBar in 'vgr_ControlBar.pas',
+  vgr_FontComboBox in 'vgr_FontComboBox.pas',
+  vgr_IniStorage in 'vgr_IniStorage.pas',
+  vgr_Label in 'vgr_Label.pas',
+  vgr_Consts in 'vgr_Consts.pas',
+  vgr_Functions in 'vgr_Functions.pas',
+  vgr_GUIFunctions in 'vgr_GUIFunctions.pas',
+  vgr_MultiPageButton in 'vgr_MultiPageButton.pas' {vgrMultiPagePaletteForm},
+  vgr_Button in 'vgr_Button.pas',
+  vgr_Barcode in 'vgr_Barcode.pas';
+
+end.
